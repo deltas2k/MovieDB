@@ -15,6 +15,7 @@
 		34566727234A4A190048BF26 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34566726234A4A190048BF26 /* MovieController.swift */; };
 		34566729234A4A2A0048BF26 /* MovieContraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34566728234A4A2A0048BF26 /* MovieContraint.swift */; };
 		3456672B234A4A550048BF26 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456672A234A4A550048BF26 /* Movies.swift */; };
+		3456672F234A4B8F0048BF26 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456672E234A4B8F0048BF26 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		34566726234A4A190048BF26 /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 		34566728234A4A2A0048BF26 /* MovieContraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContraint.swift; sourceTree = "<group>"; };
 		3456672A234A4A550048BF26 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		3456672E234A4B8F0048BF26 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		34566722234A49E30048BF26 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				3456672E234A4B8F0048BF26 /* MovieTableViewCell.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				3456672B234A4A550048BF26 /* Movies.swift in Sources */,
 				34566727234A4A190048BF26 /* MovieController.swift in Sources */,
+				3456672F234A4B8F0048BF26 /* MovieTableViewCell.swift in Sources */,
 				34566729234A4A2A0048BF26 /* MovieContraint.swift in Sources */,
 				3456670A234A476C0048BF26 /* AppDelegate.swift in Sources */,
 				3456670C234A476C0048BF26 /* SceneDelegate.swift in Sources */,
