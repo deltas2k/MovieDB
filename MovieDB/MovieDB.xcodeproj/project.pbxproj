@@ -16,6 +16,7 @@
 		34566729234A4A2A0048BF26 /* MovieContraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34566728234A4A2A0048BF26 /* MovieContraint.swift */; };
 		3456672B234A4A550048BF26 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456672A234A4A550048BF26 /* Movies.swift */; };
 		3456672F234A4B8F0048BF26 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456672E234A4B8F0048BF26 /* MovieTableViewCell.swift */; };
+		34566731234A4DB40048BF26 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34566730234A4DB40048BF26 /* MovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		34566728234A4A2A0048BF26 /* MovieContraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContraint.swift; sourceTree = "<group>"; };
 		3456672A234A4A550048BF26 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		3456672E234A4B8F0048BF26 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		34566730234A4DB40048BF26 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		3456672D234A4A670048BF26 /* view controllers */ = {
 			isa = PBXGroup;
 			children = (
+				34566730234A4DB40048BF26 /* MovieTableViewController.swift */,
 			);
 			path = "view controllers";
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				34566729234A4A2A0048BF26 /* MovieContraint.swift in Sources */,
 				3456670A234A476C0048BF26 /* AppDelegate.swift in Sources */,
 				3456670C234A476C0048BF26 /* SceneDelegate.swift in Sources */,
+				34566731234A4DB40048BF26 /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
