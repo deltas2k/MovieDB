@@ -44,16 +44,16 @@ class MovieController {
         print(finalURL)
         
         URLSession.shared.dataTask(with: finalURL) { (data, _, error) in
-           if let error = error {
+            if let error = error {
                 print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
                 completion(nil);return
             }
             guard let data = data else {
-                    print("error getting image");completion(nil); return
-                }
-                let image = UIImage(data: data)
-                completion(image)
+                print("error getting image");completion(nil); return
+            }
+            let image = UIImage(data: data)
+            completion(image)
         }
-    .resume()
+        .resume()
     }
 }
